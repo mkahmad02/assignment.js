@@ -1,4 +1,4 @@
-// https://github.com/mkahmad02/assignment.js/blob/main/assignment.js
+
 
 
               //  ----------         kilometerToMeter     ----------  
@@ -7,8 +7,8 @@ function kilometerToMeter (kilometer) {
     var meter = kilometer / 1000;
     return meter;
 }             
-var countMeter = kilometerToMeter(3300);
-console.log(countMeter);
+var countMeter = kilometerToMeter();
+console.log();
 
 
                  
@@ -35,6 +35,6 @@ function hotelCost(rent) {
     }
     return hotelRent; 
 }
-var count = hotelCost(25);
-console.log(count);
+var count = hotelCost();
+console.log();
 
