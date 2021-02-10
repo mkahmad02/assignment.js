@@ -1,5 +1,7 @@
+// https://github.com/mkahmad02/assignment.js/blob/main/assignment.js
 
-              /*  ----------         kilometerToMeter     ----------  */
+
+              //  ----------         kilometerToMeter     ----------  
 
 function kilometerToMeter (kilometer) {
     var meter = kilometer / 1000;
@@ -9,10 +11,10 @@ var countMeter = kilometerToMeter(3300);
 console.log(countMeter);
 
 
+                 
 
 
-
-                 /* -----------      HOTEL COST      ------------     */
+                 // -----------      HOTEL COST      ------------     
 function hotelCost(rent) {
     var hotelRent = 0;
     if (rent <= 10) {
